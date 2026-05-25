@@ -13,7 +13,6 @@ const api = axios.create({
 });
 
 // ==============================================================================
-#ifdef CLIENT_MOCK_FALLBACK
 // LocalStorage Mock Implementation for serverless/GitHub Pages execution
 // ==============================================================================
 const SEED_STUDENTS = [
