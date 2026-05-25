@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.eslintcache
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Runtimes
+runtimes/
+
+# Databases
+*.db
+*.sqlite3
+
+# Local log files
+*.log
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.flaskenv
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db

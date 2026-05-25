@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: student-registry-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - SQLITE_DB_FILE=/app/data/student_registry.db
+      - HOST=0.0.0.0
+      - PORT=8000
+    volumes:
+      - backend_data:/app/data
+    restart: unless-stopped
+    networks:
+      - registry_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: student-registry-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - registry_network
+
+volumes:
+  backend_data:
+    driver: local
+
+networks:
+  registry_network:
+    driver: bridge
