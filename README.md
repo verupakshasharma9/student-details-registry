@@ -2,7 +2,7 @@
 
 A modern, high-performance, full-stack Student Details Registry designed for academic institutions to manage student enrollment, academic records, and profiles. Built using React (JS/JSX), Vite, Tailwind CSS, Python, FastAPI, SQLite, SQLAlchemy, and Pydantic.
 
-This project was developed using a multi-agent autonomous engineering workflow powered by the **Google Antigravity SDK**, demonstrating modern AI-driven software development standards.
+
 
 ---
 
