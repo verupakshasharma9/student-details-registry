@@ -78,17 +78,6 @@ graph TD
 
 ---
 
-## 🤖 AI Multi-Agent Development Team
-
-This system was engineered by a team of collaborative, specialized autonomous subagents orchestrated by a **Scrum Master Agent** using the **Google Antigravity SDK**:
-
-1. **Scrum Master Agent**: Establishes backlogs, coordinates handovers, resolves blocks, and manages PR reviews.
-2. **Backend Developer Agent**: Designs relational tables, builds FastAPI endpoints, and models Pydantic schema rules.
-3. **Frontend Developer Agent**: Constructs the React presentation layer, styled layouts, and client-side validations.
-4. **QA/Testing Agent**: Authors Pytest backend suites, Vitest mock verifications, and enforces continuous integration standards.
-5. **Documentation Writer Agent** *(Us)*: Architected and polished the documentation framework, plans, and guides.
-
-Detailed agent interaction boundaries and messaging designs are available in [docs/AGENTS.md](file:///Users/durgaprasadponukumati/.gemini/antigravity/scratch/student-details-registry/docs/AGENTS.md).
 
 ---
 
